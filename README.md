@@ -9,24 +9,24 @@ Usage: run from parent folder, and name subfolder. Orignal files are deleted
 
 ### Running as executable
 
-The executable file "datemover" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server. See "File Structure" below for details.
+The executable file "filemover" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server. See "File Structure" below for details.
 
-Run the script from the terminal, (it will not work if run from Finder) by entering the directory datemover is located and type:
+Run the script from the terminal, (it will not work if run from Finder) by entering the directory filemover is located and type:
 
 ```
-./datemover
+./filemover
 ```
 
 ### Running as python3 script
 
 Alternatively to running the executable, "filemover.py" the script also from windows environments. Make sure python 3 is installed.
 
-The script "datemover.py" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server. See "File Structure" below for details.
+The script "filemover.py" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server. See "File Structure" below for details.
 
-Run the script from the terminal, by entering the directory datemover.py is located and type:
+Run the script from the terminal, by entering the directory filemover.py is located and type:
 
 ```
-python3 datemover.py
+python3 filemover.py
 ```
 
 
