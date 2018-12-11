@@ -1,6 +1,5 @@
-# Project Title
+# Filemover
 
-filemover
 
 ## Getting Started
 
@@ -10,9 +9,10 @@ Usage: run from parent folder, and name subfolder. Orignal files are deleted
 
 ### Running as executable
 
-The executable file "datemover" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server.
+The executable file "datemover" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server. See "File Structure" below for details.
 
-Run the script from the terminal, (it will not work if run from Finder) by entering the directory datemover is located and type
+Run the script from the terminal, (it will not work if run from Finder) by entering the directory datemover is located and type:
+
 ```
 ./datemover
 ```
@@ -21,9 +21,10 @@ Run the script from the terminal, (it will not work if run from Finder) by enter
 
 Alternatively to running the executable, "filemover.py" the script also from windows environments. Make sure python 3 is installed.
 
-The script "datemover.py" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server.
+The script "datemover.py" should be placed in a directory next to subfolders named "Oyeblikk" and "Torg", containing the raw export files from the ftp server. See "File Structure" below for details.
 
-Run the script from the terminal, by entering the directory datemover.py is located and type
+Run the script from the terminal, by entering the directory datemover.py is located and type:
+
 ```
 python3 datemover.py
 ```
@@ -31,6 +32,9 @@ python3 datemover.py
 
 ## File structure
 
+Initial file structure when running the filemover:
+
+```
 ├── Oyeblikk                    # Raw Moments export files
 │   ├── 88_32054_1542356134.pdf            # Exported pdf card(s)
 │   ├── 88_32054_1542356134.xml            # Corresponding XML file(s)
@@ -40,7 +44,7 @@ python3 datemover.py
 │   ├── 88_32054_1542356134.xml            # Corresponding XML file(s)
 │   └── ...                                
 └── filemover / filemover.py    # Executable or python script
-
+```
 
 ## Authors
 
