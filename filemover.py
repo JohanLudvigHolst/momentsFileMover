@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Moves Moments/Classifieds exports into folders based on publication days
-# Usage: run from parent folder, and name subfolder . Orignal files are deleted
+# Usage: run from parent folder, and name subfolders with original files Oyeblikk and Torg. Orignal files are deleted
 
 import xml.etree.ElementTree as ET
 from datetime import datetime
