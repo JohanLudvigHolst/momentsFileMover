@@ -4,7 +4,7 @@
 ## Getting Started
 
 Moves Moments/Classifieds exports into folders based on publication days, via the rundate tags from corresponding xml file.
-Usage: run from parent folder, and name subfolder. Orignal files are deleted
+Usage: run from parent folder, and name folders "Oyeblikk" and/or "Torg".
 
 
 ### Running as executable
